@@ -175,14 +175,27 @@ a {
     font-size: 30px;
 }
 /*PAGE 3*/
+.pageThree {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
 #seventyFive {
     width: 75%;
+
 }
 .explainVideo {
-    width: 65%;
+width: 65%;
     float: right;
     margin-right: 20px;
+    margin-bottom: 20px;
 
+}
+#stepOne {
+    margin-top: -40px;
+}
+#greenPeaceThree {
+
+    margin-top: -85px;
 }
 /*MEDIA Queries*/
 
