@@ -1,0 +1,11 @@
+# https://git-scm.com/docs/gitignore
+# https://help.github.com/articles/ignoring-files
+# Example .gitignore files: https://github.com/github/gitignore
+/bower_components/
+/node_modules/
+/icons8-play-button-100.png
+/test.css
+/test.html
+/test.js
+/test.scss
+/30f8619cf4afafdf9ebd277d20dd3277.jpg

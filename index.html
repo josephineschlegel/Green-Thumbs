@@ -6,20 +6,57 @@
     <title></title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.typekit.net/fgv7xqo.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
-    <header>
-<h1 class="titleHide">The Green Thumbs</h1>
-        </header>
+<!--<div id="startscreen">
+    <button id="button">⟷</button>
+    <div id="title"><img src="30f8619cf4afafdf9ebd277d20dd3277.jpg" class="open"></div>
+    <div id="triangle-down"></div>
+    <div id="triangle-up"></div>
+
+</div>
+
+<div id="menuContent">
+    <ul>
+        <li><a href=".section1">Menu 1</a></li>
+        <li><a href=".section2">Menu 2</a></li>
+        <li><a href=".section3">Menu 3</a></li>
+    </ul>
+    <div id="menuClose">✕</div>
+</div>-->
+
 <body class="hideBackground">
+    <div id="startscreen">
+        <header>
+            <h1 class="titleHide">The Green Thumbs</h1>
+        </header>
+<div id="wrapper">
+            <div id="title"><img src="imgs/greenthumblogonobackhround.png" alt="green thumb logo" class="logo open"></div>
+            <span class="textHide" id="mobileText">
+                <p>(Tap the thumb for change, I dare you)</p>
+            </span>
+            <span class="textHide" id="computerText">
+                <p>(Click the thumb for change, I dare you)</p>
+            </span>
+        </div>
 
+        <div id="triangle-down"></div>
+  <div id="triangle-up"></div>
+    </div>
 
-    <a href="home.html">
-        <img src="imgs/greenthumblogonobackhround.png" alt="green thumb logo" class="logo" onclick="home.html">
-     <span class="textHide" id="mobileText"><p>(Tap the thumb for change, I dare you)</p></span>
-    <span class="textHide" id="computerText"><p>(Click the thumb for change, I dare you)</p></span>
-        </a>
+   <content id="content">
+    <aside>
+        <div id="progress">
+            <div id="Bar">10%</div>
+        </div>
+        <img class="greenPeace" src="imgs/greenpeace.png" alt="Green peace logo">
+    </aside>
 
+    <br>
+    <video class="longVideo" controls preload="metadata">
+        <source src="./videos/greenthumbs-campaignvid-long-final.mp4" type="video/mp4">
 
+    </video>
+</content>
     <script src="script.js"></script>
-</body>
-</html>
+</body></html>
