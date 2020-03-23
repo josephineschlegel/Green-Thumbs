@@ -1,6 +1,7 @@
 /*LANDING PAGE*/
 .hideBackground {
     background-color: rgb(0, 36, 27, 14);
+    padding-bottom: 50px;
 }
 
 .titleHide {
@@ -128,6 +129,7 @@ a {
     padding: 20px;
     align-content: center;
     text-align: center;
+    overflow: hidden;
 }
 
 /*SECOND PAGE*/
@@ -197,6 +199,12 @@ width: 65%;
 
     margin-top: -85px;
 }
+/*PAGE 4*/
+#oneHundred {
+    width: 100%;
+    margin-top: 150px;
+}
+
 /*MEDIA Queries*/
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
