@@ -59,7 +59,7 @@ a {
     }
 }
 
-
+/*INFOPAGE*/
 .greenPeace {
     width: 15%;
     height: auto;
@@ -68,15 +68,17 @@ a {
     position: sticky;
     float: right;
     opacity: 60%;
-    margin-top: -26px
+    margin-top: -36px
 
 }
 
 #progress {
-    width: 60%;
-    background-color: grey;
+    width: 80%;
+    background-color: #4B6154;
     height: 40px;
-    margin-top: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 10px ;
 }
 
 #Bar {
@@ -86,11 +88,31 @@ a {
     text-align: center;
     line-height: 40px;
     color: white;
-    display: inline-flex;
+    border-radius: 20px;
+}
+.longVideo {
+    float: left;
 }
 
+.homePageTitles {
+    color: #add476;
+    text-align: center;
+    font-family: zipline-lined, times;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+}
+.homeText {
+    color: #add476;
+    font-family: calling-code, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1.8;
 
-
+}
 
 /*MEDIA Queries*/
 
