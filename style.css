@@ -78,7 +78,7 @@ a {
     height: 40px;
     margin-top: 30px;
     border-radius: 20px;
-    box-shadow: 5px 10px ;
+    box-shadow: 5px 10px 9px #000 ;
 }
 
 #Bar {
@@ -92,6 +92,7 @@ a {
 }
 .longVideo {
     float: left;
+
 }
 
 .homePageTitles {
@@ -113,7 +114,47 @@ a {
     line-height: 1.8;
 
 }
+.textBox {
+     box-shadow: 5px 10px 9px #000 ;
+    margin: 20px;
+    padding: 20px;
+    align-content: center;
+    text-align: center;
+}
+/*SECOND PAGE*/
+.pageTwo {
+    margin-top: 200px;
+    margin-bottom: -150px;
+}
+#greenPeaceTwo {
 
+    margin-top: -85px;
+}
+#whoWe {
+    margin-top: -30px;
+}
+#whoWeTitle {
+    margin-top: -10px;
+}
+.illustrations{
+    display: inline;
+    width: 100px;
+}
+#grid {
+    display: inline-grid;
+     grid-template-columns: 1fr 1fr 1fr;
+}
+#whyTitle {
+    margin-bottom: -20px;
+}
+.problemTitle {
+     color: #add476;
+    text-align: center;
+    font-family: zipline-lined, times;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
 /*MEDIA Queries*/
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
@@ -417,10 +458,11 @@ a {
 
 /*LAPTOPS*/
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 925px) {
     .logo {
         width: 20%;
     }
+
 
     .longVideo {
         width: 65%;
@@ -440,7 +482,7 @@ a {
     }
 
     .logo {
-        width: 19%;
+        width: 17%;
         padding: 0px;
         margin-top: 0px;
         margin-bottom: -80px;
@@ -451,7 +493,7 @@ a {
     }
 
     .titleHide {
-        font-size: 50px;
+        font-size: 80px;
         margin-top: 10px
     }
 }
@@ -468,7 +510,7 @@ a {
     }
 
     .titleHide {
-        font-size: 170px;
+        font-size: 100px;
     }
 
     #mobileText {
