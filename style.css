@@ -18,9 +18,13 @@
 }
 
 a {
-    text-decoration: none;
+    color: #add476;
+
 }
 
+a:hover {
+    color: white;
+}
 
 .textHide {
     color: #add476;
@@ -222,7 +226,8 @@ content {
     position: sticky;
     float: right;
     opacity: 60%;
-    margin-top: -36px
+    margin-top: -36px;
+    cursor: pointer;
 }
 
 .progress {
@@ -283,7 +288,32 @@ content {
     align-content: center;
     text-align: center;
     overflow: hidden;
+
 }
+
+
+#firstTbox.anim {
+    -webkit-animation: slide-in2 2s ease-in both;
+	        animation: slide-in2 2s ease-in both;
+}
+
+@-webkit-keyframes slide-in2{
+  0% {
+       transform: translateX(-100vw);
+     opacity: 0;
+
+  }
+  65% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+
+  }
+
+    100% {
+        opacity: 1;
+    }
+}
+
 
 /*SECOND PAGE*/
 #fifty {
@@ -367,6 +397,7 @@ width: 65%;
     font-family: arial black,times;
     font-size: 70px;
     opacity: 100%;
+    position: absolute;
 }
 .protest {
     width: 100%;

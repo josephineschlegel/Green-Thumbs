@@ -7,9 +7,11 @@ $(document).ready(function() {
     $("#title").fadeOut(300);
     $(".titleHide").fadeOut(300);
     $(".textHide").hide();
-    $("content").delay(700).fadeIn(400);
+    $("content").fadeIn(400);
     $("#triangle-down").delay(700).fadeOut();
+    $("#wrapper").css({'z-index': '-5'});
     $(".hideBackground").css({overflow: 'auto', overflowX: 'hidden'});
+      $("#firstTbox").addClass("anim");
 
   });
 
