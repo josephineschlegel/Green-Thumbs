@@ -9,6 +9,7 @@ $(document).ready(function() {
     $(".textHide").hide();
     $("content").delay(700).fadeIn(400);
     $("#triangle-down").delay(700).fadeOut();
+    $(".hideBackground").css({overflow: 'auto', overflowX: 'hidden'});
 
   });
 

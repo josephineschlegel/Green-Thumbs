@@ -2,6 +2,7 @@
 .hideBackground {
     background-color: rgb(0, 36, 27, 14);
     overflow: hidden;
+
 }
 
 .titleHide {
@@ -205,9 +206,6 @@ section h1 {
     transition: 0.7s ease-in-out;
 }
 
-section {
-    height: 100vh;
-}
 
 content {
     display: none;
@@ -215,6 +213,198 @@ content {
 }
 
 
+/*INFOPAGE*/
+.greenPeace {
+    width: 15%;
+    height: auto;
+    display: inline;
+    margin-right: 2%;
+    position: sticky;
+    float: right;
+    opacity: 60%;
+    margin-top: -36px
+}
+
+.progress {
+    width: 80%;
+    background-color: #4B6154;
+    height: 40px;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 10px 9px #000;
+    background-image: url(imgs/codegif2.gif);
+}
+
+.Bar {
+    background-color: #ABDF74;
+    width: 25%;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    border-radius: 20px;
+    color: rgb(0, 36, 27, 14);
+   font-family: calling-code, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0px;
+}
+
+.longVideo {
+    float: left;
+
+}
+
+.homePageTitles {
+    color: #add476;
+    text-align: center;
+    font-family: zipline-lined, times;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+}
+
+.homeText {
+    color: #add476;
+    font-family: calling-code, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 0px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1.8;
+
+}
+
+.textBox {
+    box-shadow: 5px 10px 9px #000;
+    margin: 20px;
+    padding: 20px;
+    align-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+
+/*SECOND PAGE*/
+#fifty {
+    width: 50%;
+}
+.pageTwo {
+    margin-top: 170px;
+    margin-bottom: -150px;
+}
+
+#greenPeaceTwo {
+
+    margin-top: -55px;
+}
+
+#whoWe {
+    margin-top: -30px;
+}
+
+#whoWeTitle {
+    margin-top: -10px;
+}
+
+.illustrations {
+    display: inline;
+    width: 100px;
+}
+
+#grid {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#whyTitle {
+    margin-bottom: -20px;
+}
+
+.problemTitle {
+    color: #add476;
+    text-align: center;
+    font-family: zipline-lined, times;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+}
+
+
+/*PAGE 3*/
+.pageThree {
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+#seventyFive {
+    width: 75%;
+
+}
+.explainVideo {
+width: 65%;
+    float: right;
+    margin-right: 20px;
+    margin-bottom: 20px;
+
+}
+#stepOne {
+    margin-top: -40px;
+}
+#greenPeaceThree {
+
+    margin-top: -85px;
+}
+/*PAGE 4*/
+#oneHundred {
+    width: 100%;
+    margin-top: 150px;
+}
+
+.more {
+    color:#add476;
+    text-align: left;
+    margin-top: -400px;
+    font-family: arial black,times;
+    font-size: 70px;
+    opacity: 100%;
+}
+.protest {
+    width: 100%;
+    height: 400px;
+    opacity: 20%;
+
+}
+
+/*MEDIA Queries*/
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+@media only screen and (min-device-width : 375px) and (max-device-width : 667px) and (orientation : landscape) {
+    #computerText {
+        visibility: hidden;
+    }
+
+
+    .logo {
+        width: 30%;
+        margin-top: -20px;
+        height: auto;
+    }
+
+    .titleHide {
+        font-size: 50px;
+        margin-bottom: 20px;
+        margin-top: -1px;
+    }
+
+    .longVideo {
+        width: 80%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+    }
+
+}
 /*MEDIA Queries*/
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
@@ -518,10 +708,11 @@ content {
 
 /*LAPTOPS*/
 
-@media screen and (min-width: 1025px) {
+@media screen and (min-width: 925px) {
     .logo {
         width: 20%;
     }
+
 
     .longVideo {
         width: 65%;
@@ -541,7 +732,7 @@ content {
     }
 
     .logo {
-        width: 19%;
+        width: 17%;
         padding: 0px;
         margin-top: 0px;
         margin-bottom: -80px;
@@ -552,7 +743,7 @@ content {
     }
 
     .titleHide {
-        font-size: 50px;
+        font-size: 80px;
         margin-top: 10px
     }
 }
@@ -569,7 +760,7 @@ content {
     }
 
     .titleHide {
-        font-size: 170px;
+        font-size: 100px;
     }
 
     #mobileText {
