@@ -1,4 +1,10 @@
 /*LANDING PAGE*/
+body {
+        scroll-behavior: smooth;
+   overflow-x: hidden;
+    overflow-y: scroll;
+
+}
 .hideBackground {
     background-color: rgb(0, 36, 27, 14);
     overflow: hidden;
@@ -405,7 +411,14 @@ width: 65%;
     opacity: 20%;
 
 }
+#greenPeaceFour {
 
+    margin-top: -80px;
+}
+.pageFour {
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
 /*MEDIA Queries*/
 
 /* ----------- iPhone 6, 6S, 7 and 8 ----------- */
@@ -523,6 +536,17 @@ width: 65%;
         margin-right: auto;
         display: flex;
     }
+       #grid {
+    display: inline-grid;
+    grid-template-columns: 1fr;
+}
+    .more {
+        font-size: 22px;
+        line-height: 4.6;
+
+    }
+
+}
 }
 
 /*IPHONE X*/
@@ -549,6 +573,16 @@ width: 65%;
         margin-right: auto;
         display: flex;
     }
+    #grid {
+    display: inline-grid;
+    grid-template-columns: 1fr;
+}
+    .more {
+        font-size: 22px;
+        line-height: 4.6;
+
+    }
+
 }
 
 @media only screen and (min-device-width : 375px) and (max-device-width : 812px) and (-webkit-device-pixel-ratio : 3) and (orientation : landscape) {
@@ -584,6 +618,7 @@ width: 65%;
         margin-right: auto;
         display: flex;
     }
+
 }
 
 /* iPhone 5 & 5S in landscape */
@@ -650,6 +685,25 @@ width: 65%;
         margin-right: auto;
         display: flex;
     }
+        #grid {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 1px;
+}
+    .more {
+        font-size: 55px;
+        line-height: 1.9;
+
+    }
+    #greenPeaceFour {
+
+    margin-top: -80px;
+}
+.pageFour {
+    margin-top: 250px;
+    margin-bottom: 50px;
+}
+
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio: 1) {
