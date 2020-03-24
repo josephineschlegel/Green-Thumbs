@@ -26,6 +26,10 @@ a:hover {
     color: white;
 }
 
+video {
+    outline-style: none;
+}
+
 .textHide {
     color: #add476;
     font-family: calling-code, sans-serif;
