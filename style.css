@@ -18,7 +18,9 @@ a {
     text-decoration: none;
     color: #add476;
 }
-
+a:hover {
+    color: white;
+}
 .textHide {
     color: #add476;
     font-family: calling-code, sans-serif;
@@ -216,12 +218,19 @@ width: 65%;
     font-family: arial black,times;
     font-size: 70px;
     opacity: 100%;
+    position: absolute;
+
 }
 .protest {
     width: 100%;
     height: 400px;
     opacity: 20%;
 
+}
+
+#whoWeTitle {
+    font-size: 80px;
+    margin-top: -45px
 }
 
 /*MEDIA Queries*/
