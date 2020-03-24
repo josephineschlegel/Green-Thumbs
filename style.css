@@ -4,6 +4,9 @@
     padding-bottom:  -bottom: 300px;
 
 }
+video {
+outline-style:none;
+}
 
 .titleHide {
     color: #add476;
