@@ -662,6 +662,8 @@ width: 65%;
         margin-right: auto;
         display: flex;
     }
+
+
 }
 
 /* iPhone 5 & 5S in portrait */
@@ -681,6 +683,10 @@ width: 65%;
         margin-left: auto;
         margin-right: auto;
         display: flex;
+    }
+
+    .grassroot {
+        font-size: 19px;
     }
 }
 
