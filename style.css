@@ -195,8 +195,6 @@ section h1 {
     position: absolute;
 }
 .curtains {
-    transform: perspective(900px) translateZ(0px);
-    opacity: 1;
     transition: 0.7s ease-in;
 }
 
@@ -218,6 +216,18 @@ section h1 {
 content {
     display: none;
 
+}
+
+
+.scroll{
+    opacity: 0;
+    transform: translate(0, 100px);
+    transition: all 3s;
+}
+
+.scroll.appear {
+    opacity: 1;
+    transform: translate(0, 0);
 }
 
 
@@ -271,6 +281,7 @@ content {
     font-weight: 400;
     font-style: normal;
     font-size: 60px;
+    margin-top: 10%;
 }
 
 .homeText {
@@ -353,6 +364,10 @@ content {
 
 #whyTitle {
     margin-bottom: -20px;
+}
+
+#lastBox {
+    margin-bottom: 5%;
 }
 
 .problemTitle {

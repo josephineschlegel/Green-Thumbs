@@ -18,3 +18,18 @@ $(document).ready(function() {
 
 });
 
+$(document).scroll(function() {
+    var pageTopScroll = $(document).scrollTop()
+    var pageBottomScroll = pageTopScroll + $(window).height()
+    var articles = $(".scroll")
+
+    for (var i = 0; i < articles.length; i++) {
+        var article = articles[i]
+
+        if ($(article).position().top < pageBottomScroll) {
+            $(article).addClass("appear")
+        } else {
+            $(article).removeClass("appear")
+        }
+        }
+    })
